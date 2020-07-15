@@ -1,0 +1,48 @@
+body{
+	padding-top: 50px;
+	color:blue;
+}
+
+
+
+#logoslika{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 700px;
+	background-image:url(../images/prva.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: top center;
+	background-attachment: fixed;
+	border-bottom:blue;
+}
+
+#logotext{
+    
+    margin-top:17%;
+	font-size: 85px;
+	margin-left: 45px;
+	position: absolute;
+	opacity: 1;
+	color: red;
+
+}
+
+#footer{
+	height: 50px;
+	font: 15px;
+	color: solid black;
+    font-family: Arial, Helvetica, sans-serif;
+	background:#ffffff;
+	border-top: 2px blue;
+	position: fixed;
+    left: 0;
+bottom:0;
+    width: 100%;
+    text-align: center;
+
+}
+
+

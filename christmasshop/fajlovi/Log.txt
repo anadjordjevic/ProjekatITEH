@@ -1,0 +1,98 @@
+
+
+1C80-0000-19E5-MA2X-4000-7204-****
+1C00-3065-8002-0000-3156-1348-****
+
+Windows XP 5.1
+IA32
+WinAspi: -
+ahead WinASPI: File 'C:\Program Files\Nero\Nero 7\Core\Wnaspi32.dll': Ver=2.0.1.74, size=164112 bytes, created 2.11.2004 12:54:32 
+
+NT-SPTI used
+Nero Version: 7.5.0.2
+Internal Version: 7, 5, 0, 2
+ (Nero Express)
+Recorder:             <HL-DT-ST DVDRAM GT51N>   Version: 1.01 - HA 1 TA 0 - 7.5.0.2
+ Adapter driver:      <IDE>                     HA 1
+ Drive buffer  :      1024kB
+ Bus Type      :      via Inquiry data (1) -> ATAPI, detected: ?
+ Connected to MMC as unknown drive with class-nr : 1
+ Drive is autodetected - recorder class: Std. MMC recorder
+CD-ROM:               <HL-DT-ST DVDRAM GT51N    >Version: 1.01 - HA 1 TA 0 - 7.5.0.2
+ Adapter driver:      <IDE>                     HA 1
+
+=== Scsi-Device-Map ===
+
+=== CDRom-Device-Map ===
+HL-DT-ST DVDRAM GT51N      E:   CDRom0
+=======================
+
+AutoRun : 1
+Excluded drive IDs: 
+WriteBufferSize: 83886080 (0) Byte
+BUFE           : 0
+Physical memory     : 1023MB (1048575kB)
+Free physical memory: 410MB (420148kB)
+Memory in use       : 78 %
+Uncached PFiles: 0x0
+Use Inquiry    : 1
+Global Bus Type: default (0)
+Check supported media : Disabled (0) 
+
+15.2.2016
+ISO compilation
+13:55:10	#1 Text 0 File Isodoc.cpp, Line 6508
+	Iso document burn settings
+	------------------------------------------
+	Determine maximum speed : FALSE
+	Simulate                : FALSE
+	Write                   : TRUE
+	Finalize CD             : FALSE
+	Multisession            : TRUE
+	Multisession type:      : Start multisession
+	Burning mode            : DAO
+	Mode                    : 1
+	ISO Level               : 1 (Max. of 11 = 8 + 3 char)
+	Character set           : ISO 9660
+	Joliet                  : TRUE
+	Allow pathdepth more than 8 directories : TRUE
+	Allow more than 255 characters in path  : TRUE
+	Write ISO9660 ;1 file extensions        : TRUE
+	
+13:55:12	#2 Text 0 File ThreadedTransfer.cpp, Line 531
+	ReadBuffer-Pipe got 262144KB of Memory
+	
+13:55:12	#3 Text 0 File Reader.cpp, Line 126
+	Reader running
+	
+13:55:12	#4 ISO9660GEN -11 File Geniso.cpp, Line 3313
+	First writeable address = 0 (0x00000000)
+	
+13:55:12	#5 Text 0 File Burncd.cpp, Line 3436
+	Turn on Disc-At-Once, using DVD media
+	
+13:55:24	#6 Phase 40 File dlgbrnst.cpp, Line 1730
+	Aborted by user
+	
+13:55:24	#7 Text 0 File DlgWaitCD.cpp, Line 298
+	Disc check failed: Medium not allowed (Wrong CD)
+	
+13:55:24	#8 Text 0 File DlgWaitCD.cpp, Line 310
+	Write in overburning mode: NO (enabled: CD)
+	
+13:55:25	#9 Text 0 File DlgWaitCD.cpp, Line 2824
+	Recorder: HL-DT-ST DVDRAM GT51N;
+	   CD type reading failed
+	   ATIP Data: ?
+	
+13:55:25	#10 Text 0 File DlgWaitCD.cpp, Line 482
+	>>> Protocol of DlgWaitCD activities: <<<
+	=========================================
+	Compilation cannot be written on that medium type.
+		(Medium in drive: CD-R. Medium required by compilation: DVD R/RW; DVD R DL; DVD-RAM.)
+	
+
+Existing drivers:
+
+Registry Keys:
+HKLM\Software\Microsoft\Windows NT\CurrentVersion\WinLogon
